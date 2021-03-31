@@ -67,20 +67,20 @@
 #define COLOR_DARK_ORANGE     0xFC40  // #FF8C00
 #define COLOR_CORAL_RED       0xF9E7  // #FF3F3F
 
-#define COLOR_DARK_PURPLE     0x9930  // #992380
+//#define COLOR_DARK_PURPLE     0x9930  // #992380
 
 #ifndef COLOR_BACKGROUND
-  #define COLOR_BACKGROUND    0x20AC  // #1E156E
+  #define COLOR_BACKGROUND    0x0000  // #1E156E
 #endif
 #ifndef COLOR_SELECTION_BG
-  #define COLOR_SELECTION_BG    0x9930  // #992380
+  #define COLOR_SELECTION_BG    0x4208 // 0x9930  // #992380
 #endif
 #ifndef COLOR_WEBSITE_URL
   #define COLOR_WEBSITE_URL     0x03B7
 #endif
 
 #ifndef COLOR_INACTIVE
-  #define COLOR_INACTIVE          COLOR_GREY
+  #define COLOR_INACTIVE          COLOR_DARKGREY2 // COLOR_GREY
 #endif
 #ifndef COLOR_COLD
   #define COLOR_COLD              COLOR_AQUA
@@ -102,11 +102,11 @@
   #define COLOR_AXIS_HOMED        COLOR_WHITE
 #endif
 #ifndef COLOR_AXIS_NOT_HOMED
-  #define COLOR_AXIS_NOT_HOMED    COLOR_YELLOW
+  #define COLOR_AXIS_NOT_HOMED    COLOR_WHITE //COLOR_YELLOW
 #endif
 
 #ifndef COLOR_RATE_100
-  #define COLOR_RATE_100          COLOR_VIVID_GREEN
+  #define COLOR_RATE_100          COLOR_VIVID_GREEN //COLOR_WHITE 
 #endif
 #ifndef COLOR_RATE_ALTERED
   #define COLOR_RATE_ALTERED      COLOR_YELLOW
@@ -147,10 +147,10 @@
 #endif
 
 #ifndef COLOR_MENU_TEXT
-  #define COLOR_MENU_TEXT         COLOR_YELLOW
+  #define COLOR_MENU_TEXT         COLOR_AQUA //COLOR_WHITE //COLOR_YELLOW
 #endif
 #ifndef COLOR_MENU_VALUE
-  #define COLOR_MENU_VALUE        COLOR_WHITE
+  #define COLOR_MENU_VALUE        COLOR_VIVID_GREEN // COLOR_WHITE
 #endif
 
 #ifndef COLOR_SLIDER
